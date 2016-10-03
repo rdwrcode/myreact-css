@@ -1,0 +1,54 @@
+.home {
+  text-align: center;
+}
+
+.home-logo {
+  animation: home-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.home-header {
+  background-color: #222;
+  height: 180px;
+  padding: 20px;
+  color: white;
+}
+
+.home-intro {
+  font-size: large;
+}
+
+p {
+  color: blue; 
+  text-decoration: underline;
+}
+
+strong {
+  color: red;
+}
+
+@keyframes home-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+li.open {
+  list-style: circle;
+}
+
+li.closed {
+  list-style: disc;
+}
+
+ol.info {
+  list-style: upper-latin;
+}
+
+h4 {
+  border-top: 4px solid #7c7; /* mid green */
+  border: dotted;
+  background-color: #efe;     /* pale green */
+  color: #050;                /* dark green */
+  max-width: 18em;
+  align: right;
+}
