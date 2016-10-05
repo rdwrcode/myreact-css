@@ -1,7 +1,9 @@
 import React from 'react'
 import Radium from 'radium'
 import { style, hover } from 'glamor'
-
+import Flexbox from './Flexbox'
+import Nav from './Nav'
+import Boxes from './Boxes'
 import './Play.css'
 
 const styles = {
@@ -67,6 +69,9 @@ const Play = () => (
       {...hover({color: '#00FF00'})}>
       glamor style
     </div>
+    <Flexbox />
+    <Nav />
+    <Boxes />
     <div className="container">
       <header>
         <h1>City Gallery</h1>
