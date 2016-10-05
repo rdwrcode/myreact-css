@@ -16,11 +16,11 @@ const App = () => {
     <Router>
       <div>
         <ul className="app-navigation">
-          <li><Link to='/'>Home</Link></li>
-          <li><Link to='/basic'>Basic</Link></li> 
-          <li><Link to='/kanban'>Kanban</Link></li>
-          <li><Link to='/play'>Play</Link></li>
-          <li><Link to='/about'>About</Link></li>
+          <li><Link to='/myreact-css'>Home</Link></li>
+          <li><Link to='/myreact-css/basic'>Basic</Link></li> 
+          <li><Link to='/myreact-css/kanban'>Kanban</Link></li>
+          <li><Link to='/myreact-css/play'>Play</Link></li>
+          <li><Link to='/myreact-css/about'>About</Link></li>
         </ul>
         <hr/>
         <Match exactly pattern='/' component={Home}/>
