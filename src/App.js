@@ -23,11 +23,11 @@ const App = () => {
           <li><Link to='/myreact-css/about'>About</Link></li>
         </ul>
         <hr/>
-        <Match exactly pattern='/' component={Home}/>
-        <Match pattern='/basic' component={Basic}/>
-        <Match pattern='/kanban' component={Kanban}/>
-        <Match pattern='/play' component={Play}/>
-        <Match pattern='/about' component={About}/>
+        <Match exactly pattern='/myreact-css' component={Home}/>
+        <Match pattern='/myreact-css/basic' component={Basic}/>
+        <Match pattern='/myreact-css/kanban' component={Kanban}/>
+        <Match pattern='/myreact-css/play' component={Play}/>
+        <Match pattern='/myreact-css/about' component={About}/>
         <Miss component={NotFound}/>
       </div>
     </Router>
