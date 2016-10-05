@@ -9,11 +9,13 @@ import Play from './play/Play';
 import About from './about/About';
 import NotFound from './NotFound';
 
+import './App.css'
+
 const App = () => {
   return (
     <Router>
       <div>
-        <ul>
+        <ul className="app-navigation">
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/basic'>Basic</Link></li> 
           <li><Link to='/kanban'>Kanban</Link></li>
