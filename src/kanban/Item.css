@@ -1,0 +1,25 @@
+.item {
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 0.3em .03em rgba(0,0,0,.3);
+}
+
+.item:hover {
+  box-shadow: 0 0 0.3em .03em rgba(0,0,0,.7);
+
+  transition: .6s;
+}
+
+.item .item-delete {
+  float: right;
+  padding: 0;
+  background-color: #fdfdfd;
+  border: none;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.item:hover .item-delete {
+  visibility: visible;
+}

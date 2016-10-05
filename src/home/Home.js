@@ -1,4 +1,6 @@
 import React from 'react'
+//import ReactHint from 'react-hint';
+//import 'react-hint/css/index/css';
 import logo from '../logo.svg';
 import './Home.css';
 
@@ -17,13 +19,13 @@ const Home = () => (
           <strong>S</strong>heets{' '}
         </p>
         <ul>
-          <li class="open">Lorem ipsum</li>
-          <li class="closed">Dolor sit</li>
-          <li class="closed">Amet consectetuer</li>
-          <li class="open">Magna aliquam</li>
-          <li class="closed">Autem veleum</li>
+          <li className="open">Lorem ipsum</li>
+          <li className="closed">Dolor sit</li>
+          <li className="closed">Amet consectetuer</li>
+          <li className="open">Magna aliquam</li>
+          <li className="closed">Autem veleum</li>
         </ul>
-        <ol class="info">
+        <ol className="info">
           <li>Lorem ipsum</li>
           <li>Dolor sit</li>
           <li>Amet consectetuer</li>

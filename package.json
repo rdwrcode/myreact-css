@@ -3,22 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.6.1",
-    "tachyons": "^4.5.3",
-    "tachyons-cli": "^1.0.8"
+    "react-scripts": "0.6.1"
   },
   "dependencies": {
+    "fontawesome": "^4.5.0",
+    "glamor": "^2.15.6",
+    "radium": "^0.18.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-hint": "^1.0.0",
     "react-router": "^4.0.0-alpha.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "css": "tachyons src/css/app.css > src/index.css --minify",
-    "prestart": "npm run css",
-    "prebuild": "npm run css"
+    "eject": "react-scripts eject"
   }
 }

@@ -1,0 +1,71 @@
+.page-container {
+  position: relative;
+}
+
+.page-nav {
+  position: absolute;
+  left: 0px;
+  width: 200px;
+}
+
+.page-section {
+  /* position is static by default */
+  margin-left: 200px;
+}
+
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+
+.page-body {
+  margin-bottom: 120px;
+}
+
+img {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+.box {
+  float: left;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+.after-box {
+  clear: left;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+@media screen and (min-width:600px) {
+  nav {
+    float: left;
+    width: 25%;
+  }
+  section {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}
+
+.three-column {
+  padding: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em;
+}

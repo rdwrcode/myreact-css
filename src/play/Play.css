@@ -1,0 +1,107 @@
+/*
+ * selector, property, value
+ * 
+ * declaration, {...;}
+ * declaration terminator ;
+ * selectors: 
+ * tag: p {...} 
+ * class: .className {...} 
+ * id: #id {...}
+ *  
+ * CSS pseudos:
+ * a:hover
+ * p:visited
+ * a:active
+ * p:focus
+ * 
+ * grouped selectors:
+ * p, #className, .id {...}
+ *
+ * nested selectors:
+ * #className p {...}
+ *
+ * Long format vs shorthand
+ * clockwise direction
+ *
+ * p {margin: 1px 2px 3px 4px;}
+ * p {
+  margin-top: 1px;
+  margin-right: 2px;
+  margin-bottom: 3px;
+  margin-left: 4px;
+ }
+ * values: units of measures
+ * absolute: px;
+ * relative: ems, percentage;
+ * 
+ * external, embedded, inline CSS to HTML.
+ *
+ */
+.play-h2 {
+  color: #FF3333;
+}
+
+.play-p {
+  color: #666666;
+  text-decoration: none;
+}
+
+span.play-english {
+  text-decoration: underline;
+}
+
+span.play-spanish {
+  color: blue;
+}
+
+.play-floating {
+  display: inline-block;
+  width: 150px;
+  height: 20%;
+  margin: 10px;
+  border: 3px solid #73AD21; 
+}
+
+.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.container p {
+  text-decoration: none;
+  color: #888888;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+

@@ -1,0 +1,95 @@
+.card {
+  display: inline-block;
+
+  margin: 1em;
+
+  background-color: #efefef;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+
+  min-width: 10em;
+  vertical-align: top;
+}
+
+.card-header {
+  overflow: auto;
+
+  padding: 1em;
+
+  color: #efefef;
+  background-color: #333;
+
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.card-name {
+  float: left;
+}
+
+.card-add-item {
+  float: left;
+
+  margin-right: 0.5em;
+}
+
+.card-delete {
+  float: right;
+
+  margin-left: 0.5em;
+
+  visibility: hidden;
+}
+.card-header:hover .card-delete {
+  visibility: visible;
+}
+
+.card-move {
+  float: right;
+
+  margin-left: 0.5em;
+
+  visibility: hidden;
+}
+.card-header:hover .card-move {
+  visibility: visible;
+}
+
+.card-items {
+  margin: 0.5em;
+  padding-left: 0;
+  max-width: 15em;
+  list-style: none;
+  color: black;
+}
+
+.item {
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 0.3em .03em rgba(0,0,0,.3);
+}
+
+.item:hover {
+  box-shadow: 0 0 0.3em .03em rgba(0,0,0,.7);
+
+  transition: .6s;
+}
+
+.item-name {
+  /* force to use inline-block so that it gets minimum height */
+  display: inline-block;
+}
+
+.item .item-delete {
+  float: right;
+  padding: 0;
+  background-color: #fdfdfd;
+  border: none;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.item:hover .item-delete {
+  visibility: visible;
+}

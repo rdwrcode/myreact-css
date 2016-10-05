@@ -17,6 +17,13 @@ npm i -D tachyons tachyons-cli
 ```
 Give tachyons a try.
 
+```
+npm uninstall tachyons tachyons-cli
+```
+Change the package.json back.
+
+Though the style of [standardjs](http://standardjs.com) is not enforced, the code is going that way.
+
 ## CSS Methodologies and libraries for React component
 
 ### CSS in JS 
