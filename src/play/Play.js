@@ -4,6 +4,7 @@ import { style, hover } from 'glamor'
 import Flexbox from './Flexbox'
 import Nav from './Nav'
 import Boxes from './Boxes'
+import Graphics from './Graphics'
 import './Play.css'
 
 const styles = {
@@ -72,6 +73,7 @@ const Play = () => (
     <Flexbox />
     <Nav />
     <Boxes />
+    <Graphics />
     <div className="container">
       <header>
         <h1>City Gallery</h1>
